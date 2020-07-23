@@ -10,12 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20200723100113) do
-
-  create_table "tweeets", force: :cascade do |t|
-    t.text "tweeet"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+ActiveRecord::Schema.define(version: 20_200_723_100_113) do
+  create_table 'tweeets', force: :cascade do |t|
+    t.text 'tweeet'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
   end
-
 end
