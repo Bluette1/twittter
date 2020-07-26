@@ -34,8 +34,14 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'bulma-rails', '~> 0.6.1'
 gem 'devise', '~> 4.3'
+gem 'elasticsearch', '~> 7.4'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'simple_form', '~> 3.5'
+
+# Run bundle exec figaro install and set environment variables in `config/application.yml`
+gem 'figaro'
+# Run mailcatcher to test email functionality
+gem 'mailcatcher'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
